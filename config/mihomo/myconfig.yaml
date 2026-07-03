@@ -192,3 +192,13 @@ rule-providers:
   telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
   netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
   apple_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/apple.mrs"}
+
+# 流量入站
+listeners:
+  - name: shadowsocks-server
+    type: shadowsocks            # 协议类型，固定为 shadowsocks
+    port: 8488                   # 你要在公网开放的代理端口（可自定义，建议避开常规端口）
+    listen: 0.0.0.0              # 监听地址（0.0.0.0 代表允许局域网和外网访问，非常重要）
+    cipher: aes-256-gcm          # 加密方式
+    password: PlaceHolder          # 你的鉴权密码（请务必设置一个强密码）
+    udp: true                    # 是否支持 UDP 转发
