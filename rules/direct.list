@@ -3,4 +3,4 @@
 # NTP类（时间校准）
 DOMAIN,ntp.ubuntu.com
 
-AND,((IP-CIDR,185.125.190.57/32),(DST-PORT,123)),no-resolve
+IP-CIDR,185.125.190.57/32,no-resolve
