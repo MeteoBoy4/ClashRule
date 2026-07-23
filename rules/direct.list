@@ -1,6 +1,5 @@
 # 直连补充列表
 
 # NTP类（时间校准）
-DOMAIN,ntp.ubuntu.com
-
+DOMAIN-SUFFIX,ntp.ubuntu.com
 IP-CIDR,185.125.190.0/24,no-resolve
