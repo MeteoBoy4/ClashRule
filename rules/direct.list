@@ -3,3 +3,6 @@
 # NTP类（时间校准）
 DOMAIN-SUFFIX,ntp.ubuntu.com
 IP-CIDR,185.125.190.0/24,no-resolve
+
+# 直连没有问题
+DOMAIN,pi.dev
