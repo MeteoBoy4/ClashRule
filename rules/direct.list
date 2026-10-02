@@ -6,3 +6,8 @@ IP-CIDR,185.125.190.0/24,no-resolve
 
 # 直连没有问题
 DOMAIN,pi.dev
+
+# 科研机构和页面（及验证）
+DOMAIN-SUFFIX,onlinelibrary.wiley.com
+DOMAIN-SUFFIX,wiley.com
+DOMAIN,challenges.cloudflare.com 
