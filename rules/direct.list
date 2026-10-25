@@ -10,4 +10,5 @@ DOMAIN,pi.dev
 # 科研机构和页面（及验证）
 DOMAIN-SUFFIX,onlinelibrary.wiley.com
 DOMAIN-SUFFIX,wiley.com
+DOMAIN-SUFFIX,ametsoc.org
 DOMAIN,challenges.cloudflare.com 
