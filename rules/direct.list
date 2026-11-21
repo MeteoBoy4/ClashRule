@@ -12,6 +12,5 @@ DOMAIN-SUFFIX,onlinelibrary.wiley.com
 DOMAIN-SUFFIX,wiley.com
 DOMAIN-KEYWORD,ametsoc
 DOMAIN,challenges.cloudflare.com 
-DOMAIN-SUFFIX,webofscience.com
-DOMAIN-SUFFIX,webofknowledge.com
-
+DOMAIN-KEYWORD,webofscience
+DOMAIN-KEYWORD,webofknowledge
